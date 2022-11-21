@@ -1,0 +1,269 @@
+
+.fondAccueil{
+    height: 100vh;
+    background-image:url(img/paysage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cart{
+    color: white;
+}
+
+
+.ctnAccueil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.boitePunchline{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 800px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.punchline{
+    font-size: 3em;   
+}
+
+.fondForm{
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    height: 100px;
+    align-items: center;
+    
+}
+
+.selection{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.formulaire{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: -25px;
+}
+
+.descriptionForm{
+    margin-left: 20px;
+}
+
+.boiteCheckbox{
+    display: flex;
+    align-items: center;
+}
+
+.bouton1{
+    background-color: rgb(186, 154, 119);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.produits{
+    padding-top: 50px;
+    height: fit-content;
+    
+}
+
+.barreGrise{
+    background-color: rgb(204, 204, 204);
+    height: 2px;
+    width: 90%;
+}
+
+.categorieMen{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.categorieWomen{
+    display: flex;
+    padding-top: 70px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boutonDefiler{
+    text-align: end;
+    font-weight: 400;
+    color: rgb(186, 154, 119);
+}
+.titre{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.cartes{
+    padding-top: 10px;
+}
+
+.carte{
+    height: 350px;
+    display: flex;
+    background-color: rgb(245,246,247);
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.carte img{
+    height: auto;
+    max-width: 120px;
+    align-self: center;
+}
+
+
+.selectColorAndSize{
+    display: flex;
+    justify-content: space-between;
+}
+.selectColor{
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+    
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    background-color: rgb(22,94,185);
+    margin-left: 5px;
+}
+
+.cJaune{
+    background-color: rgb(255, 230, 55);
+    
+}
+
+.cGris{
+    background-color: rgb(83, 82, 80);
+}
+.cRose{
+    background-color: rgb(199, 129, 155);
+}
+.cBlanc{
+    background-color: rgb(255, 255, 255);
+}
+
+.nameAndPrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.couleurNameProduit{
+    color: rgb(186, 154, 119)
+}
+
+.fondAboutUs{
+    background-color: rgb(170,155,118);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.contenuAboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadreAboutUs{
+    border: solid 2px rgb(145, 131, 99);
+    height: 40vh;
+    width: 60vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left:15vh ;
+    padding-right:15vh ;
+}
+.titreAboutUs{
+    color:rgb(145, 131, 99);
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    background-color:  rgb(170,155,118) ;
+    top:1910px;
+}
+.fondTweet{
+    background-color: rgb(83,82,83);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    
+}
+.bi-twitter{
+    font-size: 2em;
+    color: rgb(66,66,66);
+
+}
+.fondFooter{
+    background-color: rgb(66,66,66);
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.contenuFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.textFooter{
+    color: white;
+    width: 30vw;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+
+}
+.trekking{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.info{
+    display: flex;
+    color: white;
+    font-size: 14px;
+    justify-content: space-around;
+    width: 20vw;
+    
+}
+.separationInfo{
+    color: rgb(186, 154, 119);
+}
